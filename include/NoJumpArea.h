@@ -9,7 +9,6 @@ namespace pt {
         NoJumpArea(const char *pName);
         ~NoJumpArea();
         virtual void init(const JMapInfoIter &rIter);
-        virtual void movement();
         const char *getManagerName() const;
     };
 };
