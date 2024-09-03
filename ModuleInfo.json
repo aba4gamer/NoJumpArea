@@ -1,0 +1,26 @@
+{
+    "Name": "NoJumpArea",
+    "Author": "Aba Gamer, Bavario, VTXG, Super Hackio",
+    "Description": "PT: NoJumpArea",
+    "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
+    "ModuleData" : [
+      {
+        "NameObjFactory" : [
+          {
+            "Name" : "NoJumpArea",
+            "Function" : "createExtActor<pt::NoJumpArea>",
+            "Include" : "NoJumpArea.h"
+          }
+        ]
+      },
+      {
+        "AreaObjMgr" : [
+          {
+            "Name" : "NoJumpArea",
+            "MaxCount" : "64",
+            "Function" : "AreaObjContainer::createManager<AreaObjMgr>"
+          }
+        ]
+      }
+    ]
+  }
