@@ -11,13 +11,6 @@ namespace pt
         AreaObj::init(rIter);
         MR::connectToSceneAreaObj(this);
     }
-    void NoJumpArea::movement () {
-        TVec3f playerPos = *MR::getPlayerPos();
-        if (isInVolume(playerPos)) 
-            OSReport("DAYUM BOY\n");
-        else 
-            OSReport("AW HELL NO\n");
-    }
     extern "C"
     {
         bool __kAutoMap_80399D30(Mario *);
