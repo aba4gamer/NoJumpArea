@@ -1,7 +1,7 @@
 {
     "Name": "NoJumpArea",
     "Author": "Aba Gamer, Bavario, VTXG, Super Hackio",
-    "Description": "PT: NoJumpArea",
+    "Description": "NoJumpArea",
     "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
     "ModuleData" : [
       {
